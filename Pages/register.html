@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | AI Summit 2027</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1><img src="../images/logo.png" alt="AI Summit 2027" class="logo"></h1>
+    <section class="space-page">
+        <canvas id="stars"></canvas>
+        <div class="container">
+            <h1>Register</h1>
+           <h2>Choose your registration type</h2>
+<table>
+    <tr>
+        <th>Category</th>
+        <th>Early bird</th>
+        <th>Standard</th>
+    </tr>
+    <tr>
+        <td>Speaker</td>
+        <td>₹5,000</td>
+        <td>₹6,000</td>
+    </tr>
+    <tr>
+        <td>Delegate</td>
+        <td>₹7,000</td>
+        <td>₹8,000</td>
+    </tr>
+    <tr>
+        <td>Poster</td>
+        <td>₹3,000</td>
+        <td>₹4,000</td>
+    </tr>
+    <tr>
+        <td>Student</td>
+        <td>₹1,500</td>
+        <td>₹2,000</td>
+    </tr>
+</table>
+<h2>Registration form</h2>
+<form id="registerForm">
+    <label for="fullName">Full name</label>
+    <input type="text" id="fullName" name="fullName">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+        <label for="phone">Phone number</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="organization">Organization or college</label>
+    <input type="text" id="organization" name="organization">
+
+    <label for="category">Registration type</label>
+    <select id="category" name="category">
+        <option value="">Select a type</option>
+        <option value="speaker">Speaker</option>
+        <option value="delegate">Delegate</option>
+        <option value="poster">Poster</option>
+        <option value="student">Student</option>
+    </select>
+    <div class="form-buttons">
+        <a href="../index.html" class="btn-green">Back to Home</a>
+        <button type="submit">Register</button>
+    </div>
+</form>
+        </div>
+    </section>
+    <script src="../js/stars.js"></script>
+    <footer>
+        <p>© 2027 AI Summit. All rights reserved.</p>
+    </footer>
+    <script src="../js/register.js"></script>
+</body>
+</html>
