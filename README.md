@@ -1,57 +1,43 @@
-# AI Summit 2027
-
+# AI Summit 2027  
 My first web project: a multi-page conference website built from scratch with HTML, CSS and JavaScript. This is a learning project, and all names, dates, contact details and prices are sample content.
 
-## Pages
+## Pages  
+- 🏠 **Home**: hero section with animated star background
+- ℹ️ **About**: event details and mission
+- 🎤 **Speakers**: speaker cards in a grid
+- 🗓️ **Schedule**: three-day timetable
+- 📞 **Contact**: contact details
+- 📝 **Register**: pricing table and registration form
 
-- **Home**: hero section with animated star background
-- **About**: event details and mission
-- **Speakers**: speaker cards in a grid
-- **Schedule**: three-day timetable
-- **Contact**: contact details
-- **Register**: pricing table and registration form
+## Features  
+- 🌌 Animated star background drawn on an HTML canvas
+- 🖱️ Hover effects on cards, tables and buttons
+- 🧭 Consistent header, navigation bar and footer across pages
+- 💳 Pricing table and registration form
 
-## Features
-
-- Animated star background drawn on an HTML canvas
-- Hover effects on cards, tables and buttons
-- Consistent header, navigation bar and footer across pages
-- Pricing table and registration form
-
-## Built with
-
+## 🛠️ Built with  
 HTML5, CSS3, JavaScript
 
-## Project structure
-
+## 📁 Project structure  
 ```
 AISummit2027/
 ├──── index.html
-├────css/
-│   └── style.css
-├────images/
-│   └── logo.png
-├────js/
+├──── CSS/
+│       └── style.css
+├──── images/
+│       └── logo.png
+├──── js/
 │     ├── stars.js
-│   └── register.js
-└── Pages/
-    ├── about.html
-    ├── speakers.html
-    ├── schedule.html
-    ├── contact.html
-    └── register.html
+│     └── register.js
+├──── Pages/
+        ├── about.html
+        ├── speakers.html
+        ├── schedule.html
+        ├── contact.html
+        └── register.html
 ```
-
-## Run locally
-
-1. Clone the repo
-2. Open the folder in VS Code
-3. Right-click `index.html` and choose **Open with Live Server**
-
-## What I learned
-
+## 📚 What I learned  
 Page layout with flexbox and grid, CSS hover effects, canvas animation, and debugging with browser DevTools.
 
-## Author
-
+## 👨‍💻 Author  
 Channakeshavareddy, MCA student, Bengaluru
